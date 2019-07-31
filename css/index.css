@@ -198,6 +198,7 @@ a {
   border-radius: 8px;
 }
 .middle-row h3 {
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   font-weight: 600;
   padding-top: 3.5%;
