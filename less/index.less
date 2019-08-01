@@ -4,19 +4,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,25 +92,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -52,49 +139,50 @@ table {
 
 @light-background: lightgray;
 
-.border{
+.border {
 	border: 1px solid black;
 	border-radius: 8px;
 }
 
-.display{
+.display {
 	display: flex;
 	justify-content: space-around;
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 	font-size: 62.5%;
 }
 
-.wrapper{
+.wrapper {
 	width: 900px;
 	margin: 0 auto;
 	font-size: 1.5rem;
 }
 
-a{
+a {
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: dodgerblue;
 }
 
-.top-row{
+.top-row {
 	display: flex;
 	justify-content: center;
 	background-color: @light-background;
 	.border;
-	
-	.hr{
+
+	.hr {
 		width: 100%;
 		height: 2px;
 	}
 
-	p{
+	p {
 		display: flex;
 		justify-content: center;
 		font-size: 1.5rem;
@@ -102,13 +190,13 @@ a{
 		margin-bottom: 2px;
 	}
 
-	.head{
+	.head {
 		h1 {
 			font-size: 4rem;
 		}
 	}
-	
-	a{
+
+	a {
 		display: flex;
 		justify-content: center;
 		.border;
@@ -116,24 +204,25 @@ a{
 		margin-bottom: 40px;
 	}
 
-	a:hover{
+	a:hover {
 		background-color: white;
 	}
 }
 
-.middle-row{
+.middle-row {
 	display: flex;
-	justify-content: space-evenly;;
+	justify-content: space-evenly;
+	;
 	margin-top: 5%;
 
-	.col{
+	.col {
 		background-color: @light-background;
 		width: 45%;
 		text-align: center;
 		.border;
 	}
 
-	h3{
+	h3 {
 		font-family: 'Roboto', sans-serif;
 		font-size: 2rem;
 		font-weight: 600;
@@ -142,24 +231,24 @@ a{
 	}
 }
 
-.bottom-row{
+.bottom-row {
 	margin-top: 5%;
 	width: 100%;
 
-	h3{
+	h3 {
 		font-weight: 600;
 		font-family: 'Roboto', sans-serif;
 		font-size: 2rem;
 	}
 
-	p{
+	p {
 		.display;
 		background-color: white;
 		padding-top: 2%;
 		padding-bottom: 2%;
 	}
 
-	.p2{
+	.p2 {
 		.display;
 		background-color: @light-background;
 		padding-top: 2%;
@@ -167,7 +256,7 @@ a{
 	}
 }
 
-footer{
+footer {
 	text-align: center;
 	font-size: 1rem;
 	margin-top: 2%;
